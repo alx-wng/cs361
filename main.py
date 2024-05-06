@@ -29,7 +29,7 @@ def main():
 def get_main_choice():
     print()
     return input("Please select from the following options:\n\
-        1:    High-card low-card\n\
+        1:    High Card Low Card\n\
         H:    Help menu\n\
         N:    Read about latest update features\n\
         Q:    Quit\n").upper()
@@ -51,7 +51,7 @@ def print_features_main():
     print("You have selected to read about the latest update features:")
     print("""
         Version 1.0 features the implementation of the user interface and
-        High-card low-card game. More games will be added in future updates!
+        High Card Low Card game. More games will be added in future updates!
           """)
     return
 
@@ -68,7 +68,7 @@ def exit():
 
 def high_card_low_card():
     print()
-    print("Welcome to High-card low-card!")
+    print("Welcome to High Card Low Card!")
     print("This game will take less than a minute.")
     user_choice = get_hclc_choice()
     while user_choice != "Q":
@@ -94,9 +94,9 @@ def get_hclc_choice():
 
 def hclc_rules():
     print()
-    print("You have selected to read the game rules for High-card low card:")
+    print("You have selected to read the game rules for High Card Low Card:")
     print("""
-        In High-card low-card, two cards with numbers [1, 9] will be picked.
+        In High Card Low Card, two cards with numbers [1, 9] will be picked.
         You will then be shown the first card. You will then guess if the
         second card is higher or lower than the first card. If you guess
         correctly you win a point!
