@@ -1,1 +1,1 @@
-Test commit for Assignment 2
+Welcome to my CS 361 Project repository!
